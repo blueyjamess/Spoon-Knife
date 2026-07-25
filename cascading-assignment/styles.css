@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(246, 78%, 41%);
+  font-weight: 800;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* This last declaration for the size of the font will override the previous one because it is declared later in the CSS file.*/
+
+.para {
+  font-size: 22px; 
+}
+
+/* I added an hashtag and the word 'confirm' to the confirm button to turn it into an ID selector.*/
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+/* I added an hashtag and the word 'cancel' to the cancel button to turn it into an ID selector.*/
+
+#cancel-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(82, 7, 219);
+  font-size: 20px;
+}
+
+.child {
+  color: rgb(173, 13, 236);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.text {
+  color: rgb(45, 81, 180);
+  font-size: 22px;
+  font-weight: 100;
+  border: 9px solid rgb(227, 10, 247);
+}
+
+.text.child {
+  color: rgb(232, 248, 9);
+  font-size: 46px;
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 12px solid rgb(3, 8, 247);
+}
