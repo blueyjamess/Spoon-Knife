@@ -1,0 +1,55 @@
+body {
+  background: gray;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: white;
+  margin: 25px auto;
+  border-top: 15px solid white
+}
+
+/* Only one declaration was mentioned for this class, hence, I added more declarations for each class separately */
+
+.title,
+.content,
+.button-container {
+  background: dodgerblue;
+}
+
+button {
+  background: white;
+}
+
+.title {
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  border: 10px solid white;
+  margin: 2px 0;
+}
+
+.content {
+  padding: 16px;
+  font-size: 18px;
+  text-align: left;
+  border: 10px solid white;
+}
+
+.button-container {
+  padding: 10px;
+  text-align: center;
+  border: 10px solid white;
+  border-bottom: 10px solid white;
+
+  /* I used a descendant selector here to target the button inside the button-container */
+}
+.button-container button {
+  padding: 16px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid Black;
+  margin-bottom: 5px;
+}
