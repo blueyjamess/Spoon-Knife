@@ -1,0 +1,9 @@
+.mother{
+    display: flex
+}
+
+.mother div{
+    background-color: skyblue
+    border: 1px solid purple;
+    height: 120px;
+}play

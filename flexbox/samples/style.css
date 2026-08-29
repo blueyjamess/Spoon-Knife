@@ -1,0 +1,322 @@
+.mother {
+ /* display: flex; */
+}
+
+.mother .first {
+  border: 6px solid black;
+  background-color: rgb(12, 106, 230);
+  height: 250px;
+  flex: 1;
+}
+
+.grandchild {
+  border: 6px solid rgb(6, 224, 240);
+  background-color: rgb(240, 205, 7);
+  height: 72px;
+}
+
+.mother .second {
+  border: 6px solid rgb(240, 205, 7);
+  background-color: rgb(6, 224, 240);
+  height: 250px;
+  flex: 1;
+}
+
+.mother .third {
+  border: 6px solid rgb(157, 6, 226);
+  background-color: rgb(235, 231, 15);
+  height: 250px;
+  flex: 2;
+}
+
+.mother .fourth {
+  border: 6px solid rgb(240, 205, 7);
+  background-color: rgb(6, 224, 240);
+  height: 250px;
+  flex: 1;
+}
+
+.mother .fifth {
+  border: 6px solid rgb(157, 6, 226);
+  background-color: rgb(235, 231, 15);
+  height: 250px;
+  flex: 1;
+}
+
+/* starting a new css style for the example.html file */
+
+
+.bigbrother{
+  background-color: rgb(179, 245, 179);
+  border: 8px solid green;
+  padding: 20px 18px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bigbrother .nigeria {
+  background-color: lightskyblue;
+  border: 6px solid blue;
+  height: 250px;
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  padding: 12px;
+  flex: 1
+}
+
+.bigbrother .nigeria .oyo {
+  border: 6px solid rgb(6, 224, 240);
+  background-color: rgb(240, 205, 7);
+  width: 660px;
+  height: 230px;
+  margin: 0 8px;
+}
+
+.bigbrother .kenya {
+  background-color: lightskyblue;
+  border: 6px solid blue;
+  height: 250px;
+  margin: 0px 0px 20px 0px;
+  padding: 12px;
+  display: flex;
+  flex: 2;
+}
+
+.bigbrother .kenya .swahili {
+  background-color: lightskyblue;
+  border: 6px solid blue;
+  height: 230px;
+  width: 800px;
+  margin-right: 8px;
+}
+
+.bigbrother .kenya .bakongo {
+  background-color: lightskyblue;
+  border: 6px solid rgb(236, 203, 13);
+  height: 230px;
+  width: 800px;
+  margin-right: 8px;
+}
+
+.bigbrother .kenya .bakongo .asante {
+  background-color: lightskyblue;
+  border: 6px solid rgb(98, 13, 236);
+  height: 92px;
+  width: 560px;
+  padding: 2px;
+  margin: 4px;
+}
+
+
+.bigbrother .ethiopia {
+  background-color: lightskyblue;
+  border: 6px solid blue;
+  height: 250px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  padding: 6px;
+  flex: 1;
+}
+
+.bigbrother .ethiopia .coffee {
+  background-color: lightskyblue;
+  border: 6px solid blue;
+  height: 210px;
+  padding: 2px;
+  margin: 4px;
+  flex: 2
+}
+
+.bigbrother .ethiopia .solomon {
+  background-color: lightskyblue;
+  border: 6px solid blue;
+  height: 210px;
+  padding: 2px;
+  margin: 4px;
+  flex: 1;
+}
+
+
+/* starting a new file for the about.html file */
+
+.afppca {
+  border: 6px solid green;
+  background-color: rgb(17, 232, 240);
+}
+
+.africa .west1 {
+  border: 6px solid blue;
+  background-color: skyblue;
+  flex: 1;
+  height: 250px;
+}
+
+.africa .west2 {
+  border: 6px solid rgb(124, 4, 223);
+  background-color: rgb(6, 2, 241);
+  flex: 2;
+  height: 450px;
+}
+
+.africa .west3 {
+  border: 6px solid rgb(238, 160, 14);
+  background-color: skyblue;
+  flex: 1;
+  height: 250px;
+}
+
+/* Policy - This is testing new methodology just discovered about the sizing of the flex */
+
+.continent {
+  padding: 4px;
+  flex: 1;
+}
+.continent .afripa {
+  flex: 1;
+  background-color: bisque;
+  border: 6px solid purple;
+  height: 260px;
+}
+
+.continent .asia {
+  flex: 2;
+  background-color: bisque;
+  border: 6px solid purple;
+  height: 260px;
+}
+
+.continent .europe {
+  flex: 1;
+  background-color: bisque;
+  border: 6px solid purple;
+  height: 260px;
+}
+
+/*from Grok */
+.container {
+  display: flex;
+  flex-direction: column;   /* vertical stacking */
+  height: 1000px;           /* total height (4 equal parts × 250px) */
+  width: 100%;
+  gap: 10px;
+}
+
+.stack {
+  border: 6px solid purple;
+  box-sizing: border-box;
+}
+
+.stack-1,
+.stack-3 {
+  flex: 1;                  /* 1 part */
+}
+
+.stack-2 {
+  flex: 2;                  /* 2 parts → twice as tall */
+}
+
+/* Testing Grok's Suggestion */
+
+.continents{
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  width: 100%;
+  gap: 10px;
+}
+
+.continents .africa{
+  border: 6px solid brown;
+  flex: 1;
+}
+
+.continents .asia{
+  border: 6px solid rgb(12, 156, 240);
+  flex: 2;
+}
+
+.continents .europe{
+  border: 6px solid rgb(75, 8, 230);
+  flex: 1;
+}
+
+
+/*This tests the cummulative knowledge I have acquired on flexbox, haha...lol*/
+
+.nigerians {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  gap: 10px;
+  border: 6px solid green;
+  background-color: rgb(146, 233, 146);
+  margin-bottom: 16px;
+  padding: 20px;
+}
+
+.yoruba {
+  border: 6px solid blue;
+  background-color: skyblue;
+  flex: 1;
+}
+
+.nigerians .yoruba .ondo{
+  border: 6px solid brown;
+  background-color: rgb(235, 196, 124);
+  height: 70px;
+  flex-direction: row;
+}
+
+.igbo {
+  border: 6px solid blue;
+  background-color: skyblue;
+  flex: 2;
+}
+
+.hausa {
+  border: 6px solid blue;
+  background-color: skyblue;
+  flex: 1;
+}
+
+
+/* Testing deepseek's example */
+
+.flex-container {
+  display: flex;
+  border: 6px solid brown;
+  flex-direction: column;
+  height: 900px;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  align-items: flex-end;
+
+}
+
+.flex-container div {
+  border: 4px solid purple;
+  height: 200px;
+  margin: 0px 20px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
