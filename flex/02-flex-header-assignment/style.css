@@ -1,19 +1,35 @@
+/*This is how I thought my mind into finding the solution
+First, I identified the number of classes defined in the html file, then I set the parameter for the parent container
+after I had identified it. I also saw that each text in their stacks were arranged in a column, so I
+made the correction to change them to rows since all the stacks are on one line. 
+I added justfiy contents and align items and this helped.*/ 
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
+  font-family: futuristic;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bold;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 2px 36px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: space-evenly;
+  gap: 16px;
 }
 
 a {
