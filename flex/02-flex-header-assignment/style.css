@@ -1,9 +1,6 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .logo {
@@ -12,11 +9,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-}
-
-.left-links {
-    display: flex;
-    flex-direction: row;
 }
 
 ul {
@@ -31,70 +23,3 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-
-/*This is my new CSS styling for the alternative index page that I created.*/
-
-.mother{
-    display: flex;
-    padding: 4px solid white;
-    background-color: antiquewhite;
-    height: 80px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.four {
-    color: rgb(247, 161, 1);
-    font-size: 46;
-    font-family: Verdana;
-    font-weight: bold;
-    background-color: white;
-    padding: 8px;
-}
-
-.one, .two, .three {
-    font-size: 22px;
-    padding: 8px;
-    color: blue;
-    background-color: white;
-    height: 22px;
-    border: 2px solid lightcyan;
-    margin-inline: 6px;
-    
-}
-
-.five, .six, .seven {
-    font-size: 22px;
-    padding: 8px;
-    color: blue;
-    background-color: white;
-    height: 22px;
-    border: 2px solid lightcyan;
-    margin-inline: 6px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
