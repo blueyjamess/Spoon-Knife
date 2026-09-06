@@ -1,9 +1,14 @@
-.mother{
-    display: flex
-}
+/* Flex-wrap capability test*/
 
-.mother div{
-    background-color: skyblue
-    border: 1px solid purple;
-    height: 120px;
-}play
+.flex-wrapper {
+    display: flex;
+  }
+
+.item {
+  height: 50px;
+  border: 2px solid;
+  border-radius: 4px;
+  background: hotpink;
+  margin: 16px;
+  width: 2000px;
+}
