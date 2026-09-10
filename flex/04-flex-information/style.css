@@ -1,12 +1,11 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-
+  text-align: center;
 }
 
-.mother{
+.mother {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 img {
@@ -14,9 +13,30 @@ img {
   height: 100px;
 }
 
+.flowers{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-around;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  align-self: center;
+  margin-bottom: 16px;
+
+}
+
+.mother .words{ /*Always remember that display: flex; and all the accompanying properties will only work on the 'mother', so when writing your 'class', make sure that you only selected the mother class. Good job, buddy. */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mother .words .text {
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
