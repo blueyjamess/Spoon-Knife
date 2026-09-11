@@ -9,8 +9,20 @@ body {
   align-items: center;
 }
 
+.imaging{
+  display: flex;
+  justify-content: center;
+
+}
+
 img {
   width: 600px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 .header{
@@ -32,11 +44,14 @@ img {
   margin-right: 16px;
 }
 
-.content .buttons {
+.buttons {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
 }
 
 input {
@@ -44,7 +59,6 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  justify-self: center;
   }
 
 .footer {
