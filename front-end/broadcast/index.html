@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broadcast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a href="#" class="brand">
+        <span class="brand-mark">◉</span> PULSE
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">World</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Business</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+        </button>
+        <a href="#" class="btn-subscribe">Subscribe</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-header">
+      <div class="live-tag">
+        <span class="pulse-dot"></span> Live · Updated 2 min ago
+      </div>
+      <h1 class="hero-title">
+        News that <em>moves</em><br>with the world.
+      </h1>
+      <p class="hero-sub">
+        Independent journalism, sharp analysis, and stories that matter — 
+        delivered the moment they happen.
+      </p>
+    </div>
+
+    <!-- Featured grid: 1 large + 2 stacked -->
+    <div class="feature-grid">
+
+      <!-- Main featured story -->
+      <article class="feature-main">
+        <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80');"></div>
+        <div class="feature-overlay"></div>
+        <div class="feature-body">
+          <span class="tag tag-featured">Featured</span>
+          <h2 class="feature-headline">
+            The cities rewriting the rules of urban life
+          </h2>
+          <p class="feature-excerpt">
+            From Seoul to Copenhagen, a new blueprint for how we live together is emerging — and it's not what planners expected.
+          </p>
+          <div class="meta">
+            <span class="author">By Amara Okafor</span>
+            <span class="dot-sep">·</span>
+            <span>8 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Side stories -->
+      <div class="feature-side">
+        <article class="side-card">
+          <div class="side-img" style="background-image: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80');"></div>
+          <div class="side-body">
+            <span class="tag">Markets</span>
+            <h3>Central banks signal a pivot the world didn't see coming</h3>
+            <div class="meta"><span>5 min read</span></div>
+          </div>
+        </article>
+
+        <article class="side-card">
+          <div class="side-img" style="background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80');"></div>
+          <div class="side-body">
+            <span class="tag">Technology</span>
+            <h3>The quiet AI revolution happening inside your phone</h3>
+            <div class="meta"><span>6 min read</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>◆ Breaking</span> Leaders convene for historic climate summit in Nairobi
+      <span>◆ Markets</span> Global indices rally on tech earnings
+      <span>◆ Culture</span> Venice Biennale announces 2026 theme
+      <span>◆ Sport</span> Underdogs stun champions in overtime thriller
+      <span>◆ Breaking</span> Leaders convene for historic climate summit in Nairobi
+      <span>◆ Markets</span> Global indices rally on tech earnings
+      <span>◆ Culture</span> Venice Biennale announces 2026 theme
+      <span>◆ Sport</span> Underdogs stun champions in overtime thriller
+    </div>
+  </div>
+
+  <!-- ============ LATEST STORIES ============ -->
+  <section class="latest">
+    <div class="section-head">
+      <h2>Latest stories</h2>
+      <a href="#" class="see-all">See all →</a>
+    </div>
+
+    <div class="story-grid">
+      <article class="story-card">
+        <div class="story-img" style="background-image: url('https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&q=80');"></div>
+        <div class="story-body">
+          <span class="tag tag-soft">World</span>
+          <h3>Inside the diplomatic back-channel that ended a decade of tension</h3>
+          <p>Sources reveal the quiet meetings that reshaped an entire region's future.</p>
+          <div class="meta"><span>4 min read</span><span class="dot-sep">·</span><span>3 hours ago</span></div>
+        </div>
+      </article>
+
+      <article class="story-card">
+        <div class="story-img" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80');"></div>
+        <div class="story-body">
+          <span class="tag tag-soft">Tech</span>
+          <h3>The chip that could make data centers obsolete</h3>
+          <p>A startup from Zurich claims a 40x efficiency leap. Experts are skeptical — and intrigued.</p>
+          <div class="meta"><span>7 min read</span><span class="dot-sep">·</span><span>5 hours ago</span></div>
+        </div>
+      </article>
+
+      <article class="story-card">
+        <div class="story-img" style="background-image: url('https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&q=80');"></div>
+        <div class="story-body">
+          <span class="tag tag-soft">Culture</span>
+          <h3>The novelists refusing to write for algorithms</h3>
+          <p>A growing movement of writers is betting that slow, difficult books still have a future.</p>
+          <div class="meta"><span>6 min read</span><span class="dot-sep">·</span><span>Yesterday</span></div>
+        </div>
+      </article>
+
+      <article class="story-card">
+        <div class="story-img" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80');"></div>
+        <div class="story-body">
+          <span class="tag tag-soft">Business</span>
+          <h3>Why the four-day week is quietly winning</h3>
+          <p>New data from 12 countries shows productivity up, burnout down — and CEOs taking notes.</p>
+          <div class="meta"><span>5 min read</span><span class="dot-sep">·</span><span>Yesterday</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER CTA ============ -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <span class="eyebrow">The Daily Pulse</span>
+      <h2>One email. Every morning. Just the essentials.</h2>
+      <p>Join 240,000 readers who start their day with our sharpest briefing — no fluff, no filler.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" placeholder="you@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <span class="fine-print">No spam. Unsubscribe anytime.</span>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-mark">◉</span> PULSE
+        <p>Independent journalism for a world in motion.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Sections</h4>
+          <a href="#">World</a>
+          <a href="#">Politics</a>
+          <a href="#">Tech</a>
+          <a href="#">Culture</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Contact</a>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <a href="#">X / Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">RSS</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 PULSE Media. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
